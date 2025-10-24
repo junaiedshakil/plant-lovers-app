@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "./AuthContext";
 import logo from "./assets/attachment_152183063.jpeg";
 
@@ -12,23 +12,55 @@ const Navbar = () => {
         <img className="h-16 w-16" src={logo} alt="Logo" />
       </Link>
       <div className="flex gap-4 font-semibold">
-        <Link to="/home">Home</Link>
-        <Link to="/plants">Plant Tips</Link>{" "}
-        
-        <Link to="/profile">Profile</Link>
+        <NavLink
+          to="/home"
+          className={({ isActive }) =>
+            `transition-colors ${
+              isActive
+                ? "font-bold text-green-600"
+                : "text-base-content hover:text-green-600"
+            }`
+          }
+        >
+          Home
+        </NavLink>
+        <NavLink
+          to="/plants"
+          className={({ isActive }) =>
+            `transition-colors ${
+              isActive
+                ? "font-bold text-green-600"
+                : "text-base-content hover:text-green-600"
+            }`
+          }
+        >
+          Plant Tips
+        </NavLink>
+        <NavLink
+          to="/profile"
+          className={({ isActive }) =>
+            `transition-colors ${
+              isActive
+                ? "font-bold text-green-600"
+                : "text-base-content hover:text-green-600"
+            }`
+          }
+        >
+          Profile
+        </NavLink>
       </div>
       <div>
         {user ? (
           <button
             onClick={handleSignOut}
-            className="bg-green-600 text-white px-4 py-2 rounded-lg"
+            className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors"
           >
             Sign Out
           </button>
         ) : (
           <Link
             to="/login"
-            className="bg-green-600 text-white px-4 py-2 rounded-lg"
+            className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors"
           >
             Sign In
           </Link>
