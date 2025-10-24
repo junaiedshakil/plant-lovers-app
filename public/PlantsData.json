@@ -1,0 +1,32 @@
+[
+  {
+    "plantId": 1,
+    "plantName": "Snake Plant",
+    "image": "https://i.postimg.cc/example1.png",
+    "price": 18,
+    "rating": 4.8,
+    "watering": "Water once every 2-3 weeks, allow soil to dry between watering.",
+    "sunlight": "Thrives in indirect sunlight, tolerates low light conditions.",
+    "fertilizing": "Feed with balanced liquid fertilizer once a month during spring and summer."
+  },
+  {
+    "plantId": 2,
+    "plantName": "Aloe Vera",
+    "image": "https://i.postimg.cc/example2.png",
+    "price": 25,
+    "rating": 4.6,
+    "watering": "Water deeply but infrequently, about every 3 weeks.",
+    "sunlight": "Needs bright, indirect sunlight; avoid direct harsh sun.",
+    "fertilizing": "Fertilize sparingly with cactus fertilizer in summer."
+  },
+  {
+    "plantId": 3,
+    "plantName": "Peace Lily",
+    "image": "https://i.postimg.cc/example3.png",
+    "price": 22,
+    "rating": 4.7,
+    "watering": "Keep soil consistently moist but not soggy; water once a week.",
+    "sunlight": "Thrives in low to medium indirect light.",
+    "fertilizing": "Feed monthly with liquid houseplant fertilizer in growing season."
+  }
+]

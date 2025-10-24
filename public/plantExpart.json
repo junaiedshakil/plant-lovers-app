@@ -1,0 +1,20 @@
+[
+  {
+    "expertId": 1,
+    "name": "Emma Green",
+    "image": "https://www.shutterstock.com/image-photo/close-portrait-senior-female-professional-260nw-2583923713.jpg",
+    "specialization": "Indoor Plants & Air-Purifying Plants"
+  },
+  {
+    "expertId": 2,
+    "name": "Liam Brown",
+    "image": "https://debraleebaldwin.com/wp-content/uploads/2016/03/IMG_2607JohnMatthews_resized-1.jpg",
+    "specialization": "Succulents & Cacti Care"
+  },
+  {
+    "expertId": 3,
+    "name": "Sophia White",
+    "image": "https://www.shutterstock.com/image-photo/beautiful-young-woman-smooth-tanned-260nw-1826986775.jpg",
+    "specialization": "Tropical Plants & Flowering Plants"
+  }
+]
